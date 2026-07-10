@@ -1,12 +1,15 @@
 import React from 'react';
 
+import Banner from '../../component/banner/Banner';
+import YourFriend from '../../component/friend/YourFriend';
+
 const HomePage = () => {
     return (
-        <div>
-            <h1 className='text-red-500 text-6xl'>homepage</h1>
-        
-        </div>
-    );
+    <div>
+        <Banner />
+        <YourFriend />
+    </div>
+    ); 
 };
 
 export default HomePage;
