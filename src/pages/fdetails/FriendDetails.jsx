@@ -1,5 +1,6 @@
 import React, { use } from "react";
 import { useParams } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const friendPromise = fetch("/friendData.json").then((res) => res.json());
 
@@ -102,11 +103,15 @@ const FriendDetails = () => {
 
             <div className="grid grid-cols-3 gap-4">
 
-              <button className="btn btn-outline">📞 Call</button>
+<button onClick={() => navigate("/timeline")} className="btn btn-outline">📞 Call
+</button>
 
-              <button className="btn btn-outline">💬 Text</button>
+<button
+  onClick={() => navigate("/timeline")} className="btn btn-outline">💬 Text
+</button>
 
-              <button className="btn btn-outline">🎥 Video</button>
+<button onClick={() => navigate("/timeline")} className="btn btn-outline">🎥 Video
+</button>
 
             </div>
 
