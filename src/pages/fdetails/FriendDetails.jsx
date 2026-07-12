@@ -27,6 +27,7 @@ const FriendDetails = () => {
     timeline.unshift(newItem);
 
     localStorage.setItem("timeline", JSON.stringify(timeline));
+    window.dispatchEvent(new Event("storage"));
     toast.success(`${type} with ${friend.name}`);
    
   };
@@ -35,7 +36,7 @@ const FriendDetails = () => {
     <div className="container mx-auto py-10 px-4">
       <div className="grid md:grid-cols-4 gap-5">
 
-        {/* Left Side */}
+        
         <div className="space-y-3">
           <div className="bg-white shadow rounded-xl p-5 text-center">
             <img
@@ -76,7 +77,7 @@ const FriendDetails = () => {
           </button>
         </div>
 
-        {/* Right Side */}
+        
         <div className="md:col-span-3 space-y-5">
 
           <div className="grid grid-cols-3 gap-4">
