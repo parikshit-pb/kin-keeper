@@ -28,7 +28,7 @@ const FriendDetails = () => {
 
     localStorage.setItem("timeline", JSON.stringify(timeline));
     toast.success(`${type} with ${friend.name}`);
-    alert(`${type} added to Timeline`);
+   
   };
 
   return (
