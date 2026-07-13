@@ -136,33 +136,6 @@
     "bio": "Coding partner. Builds projects together.",
     "btn": 10,
     "next_due_date": "2025-07-24"
-  },
-  {
-    "id": 11,
-    "name": "Emma Watson",
-    "title": "62d ago",
-    "picture":   "https://randomuser.me/api/portraits/men/11.jpg",
-
-    "email": "emma@example.com",
-    "days_since_contact": 30,
-    "status": "overdue",
-    "tags": ["WORK"],
-    "bio": "Book club member. Loves reading.",
-    "btn": 20,
-    "next_due_date": "2025-07-05"
-  },
-  {
-    "id": 12,
-    "name": "Tanvir Ahmed",
-    "title": "62d ago",
-    "picture":   "https://randomuser.me/api/portraits/women/12.jpg"
-,
-    "email": "tanvir@example.com",
-    "days_since_contact": 4,
-    "status": "on track",
-    "tags": ["HOBBY", "TRAVEL"],
-    "bio": "Close friend from hometown.",
-    "btn": "On-Track",
-    "next_due_date": "2025-07-27"
   }
+ 
 ]

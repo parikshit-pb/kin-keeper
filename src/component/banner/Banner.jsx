@@ -15,7 +15,7 @@ const Banner = () => {
 
   
   <div className="w-[149px] h-[90px] bg-gray-100 rounded-xl shadow flex flex-col justify-center items-center">
-    <h2 className="text-xl font-bold text-green-700">12</h2>
+    <h2 className="text-xl font-bold text-green-700">10</h2>
     <p className="text-xs text-gray-500">Total Friends</p>
   </div>
 
